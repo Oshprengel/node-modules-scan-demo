@@ -1,0 +1,11 @@
+{
+  "name": "node-modules-scan-demo",
+  "version": "1.0.0",
+  "description": "Minimal repro: bundled python requirements.txt files inside node_modules cause Endor partial scan failures.",
+  "private": true,
+  "main": "src/index.js",
+  "dependencies": {
+    "aws-cdk": "2.150.0",
+    "@aws-cdk/asset-awscli-v1": "2.2.202"
+  }
+}
